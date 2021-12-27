@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+
+void main(){
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Center(child: Text('I am poor')),
+          backgroundColor: Colors.amberAccent,
+        ),
+    backgroundColor: Colors.black12,
+    body: const Center(
+      child: Image(
+        image: NetworkImage('https://th.bing.com/th/id/OIP.FRBM9rm8Kpy0CshfEqqocQHaE4?pid=ImgDet&rs=1'),
+        ),
+       ),
+      ),
+    )
+  )
+}
